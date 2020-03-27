@@ -1,8 +1,11 @@
 https://github.com/stalinr9/UiPath_Assert.git
 
-echo "# UiPath_Assert" >> README.md
+Put folder inside fiolder
+open git from there
+or navigate using cd <<path>>
 git init
-git add README.md
-git commit -m "first commit"
 git remote add origin https://github.com/stalinr9/UiPath_Assert.git
-git push -u origin master
+git remote -v
+git add .
+git commit -m "27/3/2020 ReadHugeTextFile and API Calls"
+git push origin master
